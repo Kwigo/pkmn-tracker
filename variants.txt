@@ -1,0 +1,139 @@
+019,Rattata,Alolan Rattata
+020,Raticate,Alolan Raticate
+026,Raichu,Alolan Raichu
+027,Sandshrew,Alolan Sandshrew
+028,Sandslash,Alolan Sandslash
+037,Vulpix,Alolan Vulpix
+038,Ninetales,Alolan Ninetales
+050,Diglett,Alolan Diglett
+051,Dugtrio,Alolan Dugtrio
+052,Meowth,Alolan Meowth
+052,Meowth,Galarian Meowth
+053,Persian,Alolan Persian
+058,Growlithe,Hisuian Growlithe
+059,Arcanine,Hisuian Arcanine
+074,Geodude,Alolan Geodude
+075,Graveler,Alolan Graveler
+076,Golem,Alolan Golem
+077,Ponyta,Galarian Ponyta
+078,Rapidash,Galarian Rapidash
+079,Slowpoke,Galarian Slowpoke
+080,Slowbro,Galarian Slowbro
+083,Farfetch'd,Galarian Farfetch'd
+088,Grimer,Alolan Grimer
+089,Muk,Alolan Muk
+100,Voltorb,Hisuian Voltorb
+101,Electrode,Hisuian Electrode
+103,Exeggutor,Alolan Exeggutor
+105,Marowak,Alolan Marowak
+110,Weezing,Galarian Weezing
+122,Mr. Mime,Galarian Mr. Mime
+128,Tauros,Combat Breed
+128,Tauros,Blaze Breed
+128,Tauros,Aqua Breed
+144,Articuno,Galarian Articuno
+145,Zapdos,Galarian Zapdos
+146,Moltres,Galarian Moltres
+157,Typhlosion,Hisuian Typhlosion
+194,Wooper,Paldean Wooper
+199,Slowking,Galarian Slowking
+211,Qwilfish,Hisuian Qwilfish
+215,Sneasel,Hisuian Sneasel
+222,Corsola,Galarian Corsola
+263,Zigzagoon,Galarian Zigzagoon
+264,Linoone,Galarian Linoone
+351,Castform,Sunny Form
+351,Castform,Rainy Form
+351,Castform,Snowy Form
+386,Deoxys,Normal Forme
+386,Deoxys,Attack Forme
+386,Deoxys,Defense Forme
+386,Deoxys,Speed Forme
+412,Burmy,Plant Cloak
+412,Burmy,Sandy Cloak
+412,Burmy,Trash Cloak
+413,Wormadam,Plant Cloak
+413,Wormadam,Sandy Cloak
+413,Wormadam,Trash Cloak
+479,Rotom,Heat Rotom
+479,Rotom,Wash Rotom
+479,Rotom,Frost Rotom
+479,Rotom,Fan Rotom
+479,Rotom,Mow Rotom
+483,Dialga,Origin Forme
+484,Palkia,Origin Forme
+487,Giratina,Altered Forme
+487,Giratina,Origin Forme
+492,Shaymin,Land Forme
+503,Samurott,Hisuian Samurott
+549,Lilligant,Hisuian Lilligant
+550,Basculin,Red-Striped Form
+550,Basculin,Blue-Striped Form
+550,Basculin,White-Striped Form
+554,Darumaka,Galarian Darumaka
+555,Darmanitan,Standard Mode
+555,Darmanitan,Galarian Standard Mode
+562,Yamask,Galarian Yamask
+570,Zorua,Hisuian Zorua
+571,Zoroark,Hisuian Zoroark
+618,Stunfisk,Galarian Stunfisk
+628,Braviary,Hisuian Braviary
+641,Tornadus,Incarnate Forme
+642,Thundurus,Incarnate Forme
+645,Landorus,Incarnate Forme
+646,Kyurem,White Kyurem
+646,Kyurem,Black Kyurem
+647,Keldeo,Ordinary Form
+648,Meloetta,Aria Forme
+678,Meowstic,Male
+678,Meowstic,Female
+681,Aegislash,Shield Forme
+681,Aegislash,Blade Forme
+705,Sliggoo,Hisuian Sliggoo
+706,Goodra,Hisuian Goodra
+710,Pumpkaboo,Average Size
+711,Gourgeist,Average Size
+713,Avalugg,Hisuian Avalugg
+718,Zygarde,50% Forme
+718,Zygarde,Complete Forme
+720,Hoopa,Hoopa Confined
+724,Decidueye,Hisuian Decidueye
+741,Oricorio,Baile Style
+741,Oricorio,Pom-Pom Style
+741,Oricorio,Pa'u Style
+741,Oricorio,Sensu Style
+745,Lycanroc,Midday Form
+745,Lycanroc,Midnight Form
+746,Wishiwashi,Solo Form
+746,Wishiwashi,School Form
+774,Minior,Meteor Form
+774,Minior,Core Form
+849,Toxtricity,Amped Form
+849,Toxtricity,Low Key Form
+875,Eiscue,Ice Face
+876,Indeedee,Male
+876,Indeedee,Female
+877,Morpeko,Full Belly Mode
+877,Morpeko,Hangry Mode
+888,Zacian,Hero of Many Battles
+889,Zamazenta,Hero of Many Battles
+892,Urshifu,Single Strike Style
+892,Urshifu,Rapid Strike Style
+901,Ursaluna,Bloodmoon
+902,Basculegion,Male
+902,Basculegion,Female
+905,Enamorus,Incarnate Forme
+916,Oinkologne,Male
+916,Oinkologne,Female
+925,Maushold,Family of Four
+925,Maushold,Family of Three
+931,Squawkabilly,Green Plumage
+931,Squawkabilly,Blue Plumage
+931,Squawkabilly,Yellow Plumage
+931,Squawkabilly,White Plumage
+964,Palafin,Zero Form
+978,Tatsugiri,Curly Form
+982,Dudunsparce,Two-Segment Form
+999,Gimmighoul,Chest Form
+1017,Ogerpon,Teal Mask
+1024,Terapagos,Normal Form
