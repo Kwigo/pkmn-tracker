@@ -20,10 +20,27 @@ public class Pkmn {
                 + ".png";
     }
 
-    public int getId() { return id; }
-    public String getName() { return name; }
-    public int getGen() { return gen; }
-    public String getSprite() { return sprite; }
-    public boolean isCaught() { return caught; }
-    public boolean isShiny() { return shiny; }
+    public int getId() {
+        return id;
+    }
+    
+    public String getName() {
+        return name;
+    }
+    
+    public int getGen() {
+        return gen;
+    }
+    
+    public String getSprite() {
+        return sprite;
+    }
+    
+    public boolean isCaught() {
+        return caught;
+    }
+    
+    public boolean isShiny() {
+        return shiny;
+    }
 }
