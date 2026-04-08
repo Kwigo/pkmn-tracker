@@ -10,6 +10,7 @@ Use the code from the pkmn-json-maker and the files in pkmn-source to create you
 ## How to update the stats?
 With the local admin version you can easily change the JSON files by simply launching index.html in any browser and checking the boxes for each pokemon, their shiny variant and regional forms. Please be aware that I've chosen to separate regional forms and variants from the main pokedex as my main goal is to have the (currently) basic 1025 roster.
 
+
 # Milestones
 ## Currently working on...
 First website iteration (HTML, CSS, JS)
