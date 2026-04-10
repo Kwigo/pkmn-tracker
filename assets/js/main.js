@@ -1,3 +1,4 @@
+console.log("MAIN JS IS LOADING");
 async function loadGen1() {
   console.log("loading gen1...");
 
