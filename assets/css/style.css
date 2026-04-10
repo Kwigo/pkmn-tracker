@@ -192,3 +192,43 @@ body {
 .gen-grid {
   overflow: hidden;
 }
+
+.sprite-wrapper {
+  position: relative;
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 6px;
+}
+
+.shiny-sparkle {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+
+  width: 20px;
+  height: 20px;
+
+  pointer-events: none;
+
+  image-rendering: pixelated;
+}
+
+.card-icons {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.card-icons img {
+  width: 32px;
+  height: 32px;
+  image-rendering: pixelated;
+  opacity: 0.9;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.card-icons img:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
