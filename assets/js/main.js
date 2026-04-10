@@ -6,7 +6,7 @@ function formatSpriteName(name) {
     .replace("♂", "-m")
     .replace("nidoranf", "nidoran-f")
     .replace("nidoranm", "nidoran-m")
-    .replace("mrmime", "mr-mime")
+    .replace("mr.mime", "mr-mime")
     .replace("unown", "unown-a")
     .replace("'", "")
     .replace(":", "-");
