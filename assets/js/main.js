@@ -1,23 +1,36 @@
+const gens = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+const selector = document.getElementById("gen-selector");
+
+gens.forEach(gen => {
+  const btn = document.createElement("button");
+  btn.innerText = `Gen ${gen}`;
+
+  btn.addEventListener("click", () => loadGen(gen));
+
+  selector.appendChild(btn);
+})
+
 //async loading of json data
-async function loadGen1() {
-  //console.log("loading gen1...");
-
-  const res = await fetch("assets/data/gen1.json");
-  //console.log("response:", res);
-
+async function loadGen(gen) {
+  const res = await fetch(`assets/data/gen${gen}.json`);
   const data = await res.json();
-  //console.log("data:", data);
 
-  data.pokemon.forEach(element => {
+  const app = document.getElementById("app");
+  app.innerHTML = "";
+
+
+  data.pokemon.forEach(pkmn => {
     const card = document.createElement("div");
     card.classList.add("card");
+
     card.innerHTML = `
-    <img src="assets/sprites/gen${element.gen}/${element.sprite}" />
-    <h3>${element.name}</h3>
-    <p>#${element.id}</p>
+      <img src="assets/sprites/gen${pkmn.gen}/${pkmn.sprite}" />
+      <h3>${pkmn.name}</h3>
+      <p>#${pkmn.id}</p>
     `;
-  document.getElementById("app").appendChild(card);
+  app.appendChild(card);
   });;
 }
 
-loadGen1();
+loadGen(1);
