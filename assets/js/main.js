@@ -1,12 +1,12 @@
 function formatSpriteName(name) {
   return name
     .toLowerCase()
-    .replace(/\s+/g, "")     // remove spaces
+    .replace(/\s+/g, "-")     // remove spaces
     .replace("♀", "-f")
     .replace("♂", "-m")
     .replace("nidoranf", "nidoran-f")
     .replace("nidoranm", "nidoran-m")
-    .replace(".", "-")
+    .replace(".", "")
     .replace("unown", "unown-a")
     .replace("'", "")
     .replace(":", "-")
