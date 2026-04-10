@@ -6,7 +6,7 @@ const state = {
 };
 
 async function loadAllGens() {
-  for (const gen of GENS) {
+  for (const gen of gens) {
     const res = await fetch(`assets/data/gen${gen}.json`);
     const data = await res.json();
 
