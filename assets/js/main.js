@@ -1,7 +1,8 @@
 function formatSpriteName(name) {
   const regions = ["alolan", "galarian", "hisuian", "paldean"];
 
-  let parts = name.toLowerCase().split(" ");
+  let clean = removeAccents(name.toLowerCase());
+  let parts = clean.split(" ");
 
   if (regions.includes(parts[0])) {
     const region = parts.shift();
@@ -12,24 +13,26 @@ function formatSpriteName(name) {
 
   formatted = formatted
     .toLowerCase()
-    .replace(/\s+/g, "-")     // remove spaces
-    .replace("♀", "-f")
-    .replace("♂", "-m")
     .replace("nidoranf", "nidoran-f")
     .replace("nidoranm", "nidoran-m")
-    .replace(".", "")
+    .replace(/\./g, "")
     .replace("unown", "unown-a")
     .replace("'", "")
-    .replace(":", "-")
+    .replace(":", "")
     .replace("deoxys", "deoxys-normal")
     .replace("burmy", "burmy-plant")
     .replace("wormadam", "wormadam-plant")
     .replace("é", "e")
     .replace("furfrou", "furfrou-natural")
     .replace("zygarde", "zygarde-50")
-    .replace("tapu", "tapu-");
 
   return formatted;
+}
+
+function removeAccents(str) {
+  return str
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
 }
 
 const gens = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
