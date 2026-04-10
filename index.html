@@ -8,9 +8,29 @@
 </head>
 
 <body>
-    <div id="gen-selector"></div>
-    <div id="app"></div>
-    
-    <script src="assets/js/main.js"></script>
+  <div id="app">
+
+    <h1 id="title">Pokémon Tracker</h1>
+
+    <div id="tracker">
+      <p>Total: 0 / 0</p>
+      <p>Caught: 0</p>
+      <p>Shiny: 0</p>
+      <p>Completion: 0%</p>
+    </div>
+
+    <div id="global-filters">
+      <button>All</button>
+      <button>Caught</button>
+      <button>Not caught</button>
+      <button>Shiny</button>
+    </div>
+
+    <div id="gens-container"></div>
+
+  </div>
+
+  <script src="assets/js/main.js"></script>
+  <button id="collapse-all">Collapse All</button>
 </body>
 </html>
