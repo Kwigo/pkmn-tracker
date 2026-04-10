@@ -6,10 +6,18 @@ function formatSpriteName(name) {
     .replace("♂", "-m")
     .replace("nidoranf", "nidoran-f")
     .replace("nidoranm", "nidoran-m")
-    .replace("mr.mime", "mr-mime")
+    .replace(".", "-")
     .replace("unown", "unown-a")
     .replace("'", "")
-    .replace(":", "-");
+    .replace(":", "-")
+    .replace("deoxys", "deoxys-normal")
+    .replace("burmy", "burmy-plant")
+    .replace("wormadam", "wormadam-plant")
+    .replace("mimejr.", "mime-jr")
+    .replace("é", "e")
+    .replace("furfrou", "furfrou-natural")
+    .replace("zygarde", "zygarde-50")
+    .replace("tapu", "tapu-");
 }
 
 const gens = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
