@@ -10,5 +10,8 @@ export async function loadAllGens(createGenSection) {
     state.data[gen] = data;
 
     createGenSection(gen, data);
+    console.log("GEN DATA:", data);
+    console.log("POKEMON:", data.pokemon);
+    console.log("IS ARRAY?", Array.isArray(data.pokemon));
   }
 }
