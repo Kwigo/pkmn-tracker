@@ -1,4 +1,4 @@
 import { loadAllGens } from "./data.js";
-import { createGen } from "./render.js";
+import { renderGen } from "./render.js";
 
-loadAllGens(createGen);
+loadAllGens(renderGen);
