@@ -8,14 +8,16 @@ async function loadGen1() {
   const data = await res.json();
   //console.log("data:", data);
 
-  const bulbasaur = data.pokemon[0];
-  const card = document.createElement("div");
-  card.classList.add("card");
-  card.innerHTML = `
-  <h3>${bulbasaur.name}</h3>
-  <p>#${bulbasaur.id}</p>
-  `;
-document.getElementById("app").appendChild(card);
+  data.pokemon.array.forEach(element => {
+    const card = document.createElement("div");
+    card.classList.add("card");
+    card.innerHTML = `
+    <img src="assets/sprites/gen${element.gen}/${element.sprite}" />
+    <h3>${element.name}</h3>
+    <p>#${element.id}</p>
+    `;
+  document.getElementById("app").appendChild(card);
+  });;
 }
 
 loadGen1();
