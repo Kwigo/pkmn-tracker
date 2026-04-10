@@ -8,7 +8,7 @@ async function loadGen1() {
   const data = await res.json();
   //console.log("data:", data);
 
-  data.pokemon.array.forEach(element => {
+  data.pokemon.forEach(element => {
     const card = document.createElement("div");
     card.classList.add("card");
     card.innerHTML = `
