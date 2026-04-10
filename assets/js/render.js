@@ -13,9 +13,11 @@ export function renderGen(pokemonList, grid) {
         ${p.shiny ? `<img class="shiny-sparkle" src="assets/ui/sparkle.gif" />` : ""}
       </div>
 
-      <h3>${p.name}</h3>
+      <h3>#${id} ${p.name}</h3>
+      <p class="catch-date">${caughtText}</p>
     `;
 
     grid.appendChild(card);
-  });
+  }); 
+
 }
