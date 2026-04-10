@@ -1,3 +1,15 @@
+function formatSpriteName(name) {
+  return name
+    .toLowerCase()
+    .replace(/\s+/g, "")     // remove spaces
+    .replace("♀", "-f")
+    .replace("♂", "-m")
+    .replace("nidoranf", "nidoran-f")
+    .replace("nidoranm", "nidoran-m")
+    .replace("mrmime", "mr-mime")
+    .replace("unown", "unown-a");
+}
+
 const gens = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
 
 const state = {
@@ -91,7 +103,7 @@ function renderGen(pokemonList, grid) {
 
     card.innerHTML = `
       <div class="sprite-wrapper">
-        <img class="sprite" src="assets/sprites/gen${p.gen}/${p.sprite}" />
+        <img class="sprite" src="assets/sprites/gen${p.gen}/${formatSpriteName(p.name)}.png" />
         ${p.shiny ? `${p.shiny ? `<img class="shiny-sparkle" src="assets/ui/sparkle.gif" alt="shiny" />` : ""}` : ""}
       </div>
 
