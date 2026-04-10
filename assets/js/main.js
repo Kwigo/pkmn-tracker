@@ -190,3 +190,58 @@ document.querySelectorAll("#global-filters button").forEach(btn => {
 });
 
 loadAllGens();
+
+let editMode = false;
+
+document.getElementById("edit-mode").addEventListener("click", () => {
+  editMode = !editMode;
+
+  document.getElementById("edit-mode").textContent =
+    `Edit Mode: ${editMode ? "ON" : "OFF"}`;
+
+  document.body.classList.toggle("edit-mode", editMode);
+});
+
+card.addEventListener("click", () => {
+  if (!editMode) return;
+
+  p.caught = !p.caught;
+
+  if (p.caught) {
+    p.catchDate = new Date().toISOString().split("T")[0];
+  } else {
+    p.catchDate = null;
+    p.shiny = false;
+  }
+
+  updateCardUI(card, p);
+  refreshAllProgress();
+});
+
+card.addEventListener("contextmenu", (e) => {
+  e.preventDefault();
+
+  if (!editMode) return;
+  if (!p.caught) return;
+
+  p.shiny = !p.shiny;
+
+  updateCardUI(card, p);
+});
+
+document.getElementById("export-json").addEventListener("click", () => {
+  Object.entries(state.data).forEach(([gen, pokemonList]) => {
+    const blob = new Blob([JSON.stringify({ pokemon: pokemonList }, null, 2)], {
+      type: "application/json"
+    });
+
+    const url = URL.createObjectURL(blob);
+
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `gen${gen}.json`;
+    a.click();
+
+    URL.revokeObjectURL(url);
+  });
+});
