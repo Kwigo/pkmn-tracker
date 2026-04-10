@@ -1,4 +1,4 @@
 import { loadAllGens } from "./data.js";
-import { createGenSection } from "./render.js";
+import { createGen } from "./render.js";
 
-loadAllGens(createGenSection);
+loadAllGens(createGen);
