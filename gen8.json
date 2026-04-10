@@ -1,0 +1,1355 @@
+{
+  "version": 1,
+  "lastModified": "2026-04-10",
+  "stats": {
+    "total": 96,
+    "caught": 0,
+    "shiny": 0
+  },
+  "pokemon": [
+    {
+      "id": 810,
+      "name": "Grookey",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "grookey.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 811,
+      "name": "Thwackey",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "thwackey.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 812,
+      "name": "Rillaboom",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "rillaboom.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 813,
+      "name": "Scorbunny",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "scorbunny.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 814,
+      "name": "Raboot",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "raboot.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 815,
+      "name": "Cinderace",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "cinderace.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 816,
+      "name": "Sobble",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "sobble.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 817,
+      "name": "Drizzile",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "drizzile.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 818,
+      "name": "Inteleon",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "inteleon.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 819,
+      "name": "Skwovet",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "skwovet.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 820,
+      "name": "Greedent",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "greedent.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 821,
+      "name": "Rookidee",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "rookidee.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 822,
+      "name": "Corvisquire",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "corvisquire.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 823,
+      "name": "Corviknight",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "corviknight.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 824,
+      "name": "Blipbug",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "blipbug.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 825,
+      "name": "Dottler",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "dottler.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 826,
+      "name": "Orbeetle",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "orbeetle.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 827,
+      "name": "Nickit",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "nickit.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 828,
+      "name": "Thievul",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "thievul.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 829,
+      "name": "Gossifleur",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "gossifleur.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 830,
+      "name": "Eldegoss",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "eldegoss.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 831,
+      "name": "Wooloo",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "wooloo.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 832,
+      "name": "Dubwool",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "dubwool.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 833,
+      "name": "Chewtle",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "chewtle.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 834,
+      "name": "Drednaw",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "drednaw.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 835,
+      "name": "Yamper",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "yamper.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 836,
+      "name": "Boltund",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "boltund.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 837,
+      "name": "Rolycoly",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "rolycoly.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 838,
+      "name": "Carkol",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "carkol.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 839,
+      "name": "Coalossal",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "coalossal.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 840,
+      "name": "Applin",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "applin.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 841,
+      "name": "Flapple",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "flapple.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 842,
+      "name": "Appletun",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "appletun.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 843,
+      "name": "Silicobra",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "silicobra.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 844,
+      "name": "Sandaconda",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "sandaconda.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 845,
+      "name": "Cramorant",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "cramorant.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 846,
+      "name": "Arrokuda",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "arrokuda.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 847,
+      "name": "Barraskewda",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "barraskewda.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 848,
+      "name": "Toxel",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "toxel.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 849,
+      "name": "Toxtricity",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "toxtricity.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 850,
+      "name": "Sizzlipede",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "sizzlipede.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 851,
+      "name": "Centiskorch",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "centiskorch.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 852,
+      "name": "Clobbopus",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "clobbopus.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 853,
+      "name": "Grapploct",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "grapploct.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 854,
+      "name": "Sinistea",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "sinistea.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 855,
+      "name": "Polteageist",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "polteageist.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 856,
+      "name": "Hatenna",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "hatenna.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 857,
+      "name": "Hattrem",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "hattrem.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 858,
+      "name": "Hatterene",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "hatterene.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 859,
+      "name": "Impidimp",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "impidimp.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 860,
+      "name": "Morgrem",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "morgrem.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 861,
+      "name": "Grimmsnarl",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "grimmsnarl.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 862,
+      "name": "Obstagoon",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "obstagoon.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 863,
+      "name": "Perrserker",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "perrserker.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 864,
+      "name": "Cursola",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "cursola.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 865,
+      "name": "Sirfetch'd",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "sirfetchd.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 866,
+      "name": "Mr. Rime",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "mrrime.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 867,
+      "name": "Runerigus",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "runerigus.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 868,
+      "name": "Milcery",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "milcery.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 869,
+      "name": "Alcremie",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "alcremie.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 870,
+      "name": "Falinks",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "falinks.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 871,
+      "name": "Pincurchin",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "pincurchin.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 872,
+      "name": "Snom",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "snom.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 873,
+      "name": "Frosmoth",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "frosmoth.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 874,
+      "name": "Stonjourner",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "stonjourner.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 875,
+      "name": "Eiscue",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "eiscue.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 876,
+      "name": "Indeedee",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "indeedee.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 877,
+      "name": "Morpeko",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "morpeko.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 878,
+      "name": "Cufant",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "cufant.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 879,
+      "name": "Copperajah",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "copperajah.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 880,
+      "name": "Dracozolt",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "dracozolt.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 881,
+      "name": "Arctozolt",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "arctozolt.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 882,
+      "name": "Dracovish",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "dracovish.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 883,
+      "name": "Arctovish",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "arctovish.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 884,
+      "name": "Duraludon",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "duraludon.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 885,
+      "name": "Dreepy",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "dreepy.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 886,
+      "name": "Drakloak",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "drakloak.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 887,
+      "name": "Dragapult",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "dragapult.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 888,
+      "name": "Zacian",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "zacian.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 889,
+      "name": "Zamazenta",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "zamazenta.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 890,
+      "name": "Eternatus",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "eternatus.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 891,
+      "name": "Kubfu",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "kubfu.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 892,
+      "name": "Urshifu",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "urshifu.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 893,
+      "name": "Zarude",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "zarude.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 894,
+      "name": "Regieleki",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "regieleki.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 895,
+      "name": "Regidrago",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "regidrago.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 896,
+      "name": "Glastrier",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "glastrier.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 897,
+      "name": "Spectrier",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "spectrier.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 898,
+      "name": "Calyrex",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "calyrex.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 899,
+      "name": "Wyrdeer",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "wyrdeer.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 900,
+      "name": "Kleavor",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "kleavor.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 901,
+      "name": "Ursaluna",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "ursaluna.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 902,
+      "name": "Basculegion",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "basculegion.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 903,
+      "name": "Sneasler",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "sneasler.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 904,
+      "name": "Overqwil",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "overqwil.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    },
+    {
+      "id": 905,
+      "name": "Enamorus",
+      "gen": 8,
+      "caught": false,
+      "shiny": false,
+      "caughtDate": null,
+      "caughtMethod": null,
+      "sprite": "enamorus.png",
+      "tcg": {
+        "hasCard": false,
+        "hasFullArt": false
+      }
+    }
+  ]
+}
