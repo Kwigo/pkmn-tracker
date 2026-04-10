@@ -1,5 +1,11 @@
 async function loadGen1() {
-    const res = await fetch("assets/data/gen1.json");
-    const data = await res.json();
-    console.log(data);
+  console.log("loading gen1...");
+
+  const res = await fetch("assets/data/gen1.json");
+  console.log("response:", res);
+
+  const data = await res.json();
+  console.log("data:", data);
 }
+
+loadGen1();
