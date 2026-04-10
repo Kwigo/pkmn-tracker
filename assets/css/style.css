@@ -1,16 +1,71 @@
+:root {
+  --bg: #0b0f14;
+  --panel: #111826;
+  --panel-2: #1a2233;
+  --text: #e6edf3;
+  --muted: #9aa4b2;
+  --accent: #3b82f6;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+}
+
+#title {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: var(--text);
+}
+
+#tracker {
+  text-align: center;
+  background: var(--panel);
+  padding: 12px;
+  border-radius: 12px;
+  margin: 10px auto 20px;
+  max-width: 500px;
+  color: var(--muted);
+}
+
+#global-filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#global-filters button {
+  background: var(--panel);
+  color: var(--text);
+  border: 1px solid transparent;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+#global-filters button:hover {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
 #app {
   display: block;
   padding: 16px;
 }
 
 .card {
-  background: #1e1e1e;
-  color: white;
+  background: #0f172a;
+  color: var(--text);
   border-radius: 14px;
   padding: 12px;
   text-align: center;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .card img {
@@ -22,52 +77,35 @@
 
 .card:hover {
   transform: translateY(-4px) scale(1.03);
-  box-shadow: 0 6px 14px rgba(0,0,0,0.4);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.card p {
-  margin: 0;
-  font-size: 0.85rem;
-  opacity: 0.7;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.45);
 }
 
 .card h3 {
   margin: 4px 0;
   font-size: 1rem;
+  color: var(--text);
 }
 
-#title {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 2rem;
-}
-
-#tracker {
-  text-align: center;
-  margin-bottom: 10px;
-  opacity: 0.9;
-}
-
-#global-filters {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-bottom: 20px;
+.card p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--muted);
 }
 
 .gen-section {
   margin: 10px 20px;
-  border-radius: 10px;
+  border-radius: 12px;
   overflow: hidden;
-  background: #111;
+  background: var(--panel);
 }
 
 .gen-header {
-  padding: 10px;
-  background: #222;
+  padding: 10px 14px;
+  background: var(--panel-2);
   cursor: pointer;
   font-weight: bold;
+  color: var(--text);
+  user-select: none;
 }
 
 .gen-filters {
@@ -80,7 +118,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
   gap: 12px;
-  padding: 10px;
+  padding: 12px;
 }
 
 #collapse-all {
