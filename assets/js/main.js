@@ -83,10 +83,25 @@ function renderGen(pokemonList, grid) {
     const card = document.createElement("div");
     card.classList.add("card");
 
+    const id = String(p.id).padStart(4, "0");
+
+    const caughtText = p.caught
+      ? `Caught: ${p.catchDate || "Unknown"}`
+      : "Not caught";
+
     card.innerHTML = `
-      <img src="assets/sprites/gen${p.gen}/${p.sprite}" />
-      <h3>${p.name}</h3>
-      <p>#${p.id}</p>
+      <div class="sprite-wrapper">
+        <img class="sprite" src="assets/sprites/gen${p.gen}/${p.sprite}" />
+        ${p.shiny ? `${p.shiny ? `<img class="shiny-sparkle" src="assets/ui/sparkle.gif" alt="shiny" />` : ""}` : ""}
+      </div>
+
+      <h3>#${id} ${p.name}</h3>
+      <p class="catch-date">${caughtText}</p>
+
+      <div class="card-icons">
+        <img src="assets/ui/tcg.png" alt="TCG card" />
+        <img src="assets/ui/fullart.png" alt="Full art card" />
+      </div>
     `;
 
     grid.appendChild(card);
