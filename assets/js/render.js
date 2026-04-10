@@ -7,6 +7,12 @@ export function renderGen(pokemonList, grid) {
     const card = document.createElement("div");
     card.classList.add("card");
 
+    const id = String(p.id).padStart(4, "0");
+
+    const caughtText = p.caught
+      ? `Caught: ${p.catchDate || "Unknown"}`
+      : "Not caught";
+
     card.innerHTML = `
       <div class="sprite-wrapper">
         <img class="sprite" src="assets/sprites/gen${p.gen}/${formatSpriteName(p.name)}.png" />
@@ -18,6 +24,5 @@ export function renderGen(pokemonList, grid) {
     `;
 
     grid.appendChild(card);
-  }); 
-
+  });
 }
