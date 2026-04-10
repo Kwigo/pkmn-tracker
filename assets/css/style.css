@@ -38,3 +38,75 @@
   margin: 4px 0;
   font-size: 1rem;
 }
+
+#title {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+#tracker {
+  text-align: center;
+  margin-bottom: 10px;
+  opacity: 0.9;
+}
+
+#global-filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.gen-section {
+  margin: 10px 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #111;
+}
+
+.gen-header {
+  padding: 10px;
+  background: #222;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.gen-filters {
+  display: flex;
+  gap: 8px;
+  padding: 10px;
+}
+
+.gen-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 12px;
+  padding: 10px;
+}
+
+#collapse-all {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: none;
+  background: #333;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: transform 0.15s ease;
+}
+
+#collapse-all:hover {
+  transform: scale(1.05);
+}
+
+.gen-content {
+  display: block;
+}
+
+.gen-section.collapsed .gen-content {
+  display: none;
+}
