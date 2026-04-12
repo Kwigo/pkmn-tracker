@@ -1,4 +1,5 @@
 import { renderGen } from "./render.js";
+import { state } from "./state.js";
 
 export function createGenSection(gen, data) {
   const container = document.getElementById("gens-container");
@@ -45,12 +46,13 @@ export function createGenSection(gen, data) {
     section.classList.toggle("collapsed");
   });
 
-  renderGen(data.pokemon, grid);
+  const list = data.pokemon ?? data;
+  renderGen(list, grid);
 
-  updateGenProgress(gen, data.pokemon, progressText, progressFill);
+  updateGenProgress(gen, list, progressText, progressFill);
 }
 
-export function updateGenProgress(gen, list, textEl, barEl) {
+function updateGenProgress(gen, list, textEl, barEl) {
   const total = list.length;
   const caught = list.filter(p => p.caught).length;
 
@@ -58,4 +60,17 @@ export function updateGenProgress(gen, list, textEl, barEl) {
 
   textEl.textContent = `${caught} / ${total} (${percent}%)`;
   barEl.style.width = `${percent}%`;
+}
+
+function updateGenProgressFromList() {
+  document.querySelectorAll(".gen-section").forEach(section => {
+    const gen = section.dataset.gen;
+
+    const data = state.data[gen]?.pokemon || [];
+
+    const textEl = section.querySelector(".gen-progress-text");
+    const barEl = section.querySelector(".gen-progress-fill");
+
+    updateGenProgress(gen, data, textEl, barEl);
+  });
 }
