@@ -31,7 +31,7 @@ export function renderGen(pokemonList, grid) {
       <p class="catch-date">${caughtText}</p>
     `;
 
-    // CLICK LOGIC (EDIT MODE)
+    //EDIT MODE
     card.addEventListener("click", () => {
       if (!state.editMode) return;
 

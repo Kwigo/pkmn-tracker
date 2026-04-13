@@ -1,5 +1,7 @@
 # pkmn-tracker
 Welcome to my Pokemon Tracker ! Feel free to use it yourself.
+All Pokemon sprite courtesy of pokemondb.net
+Everything else has been done by myself, feel free to use it.
 
 ## What is the Pokemon Tracker?
 With the tools and code in this repo you can build your own site to easily track all the pokemon you have caught. I'm using this mostly as an overlay for Twitch where I intend to stream my journey to a full living dex. Through some OBS magic I'll display a small gif showing an animated pokeball and how many pokemon species I currently have in Pokemon Home. The community can then check the detail by going to the site itself which will show exactly which ones have been caught, as well as if I have their shiny variants or regional forms, etc.
