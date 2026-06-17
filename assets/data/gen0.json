@@ -19,7 +19,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10091
     },
     {
       "id": 20,
@@ -33,7 +34,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10092
     },
     {
       "id": 26,
@@ -47,7 +49,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10100
     },
     {
       "id": 27,
@@ -61,7 +64,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10101
     },
     {
       "id": 28,
@@ -75,7 +79,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10102
     },
     {
       "id": 37,
@@ -89,7 +94,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10103
     },
     {
       "id": 38,
@@ -103,7 +109,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10104
     },
     {
       "id": 50,
@@ -117,7 +124,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10105
     },
     {
       "id": 51,
@@ -131,7 +139,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10106
     },
     {
       "id": 52,
@@ -145,7 +154,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10107
     },
     {
       "id": 52,
@@ -159,7 +169,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10161
     },
     {
       "id": 53,
@@ -173,7 +184,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10108
     },
     {
       "id": 58,
@@ -187,7 +199,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10229
     },
     {
       "id": 59,
@@ -201,7 +214,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10230
     },
     {
       "id": 74,
@@ -215,7 +229,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10109
     },
     {
       "id": 75,
@@ -229,7 +244,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10110
     },
     {
       "id": 76,
@@ -243,7 +259,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10111
     },
     {
       "id": 77,
@@ -257,7 +274,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10162
     },
     {
       "id": 78,
@@ -271,7 +289,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10163
     },
     {
       "id": 79,
@@ -285,7 +304,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10164
     },
     {
       "id": 80,
@@ -299,7 +319,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10165
     },
     {
       "id": 83,
@@ -313,7 +334,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10166
     },
     {
       "id": 88,
@@ -327,7 +349,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10112
     },
     {
       "id": 89,
@@ -341,7 +364,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10113
     },
     {
       "id": 100,
@@ -355,7 +379,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10231
     },
     {
       "id": 101,
@@ -369,7 +394,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10232
     },
     {
       "id": 103,
@@ -383,7 +409,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10114
     },
     {
       "id": 105,
@@ -397,7 +424,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10115
     },
     {
       "id": 110,
@@ -411,7 +439,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10167
     },
     {
       "id": 122,
@@ -425,7 +454,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10168
     },
     {
       "id": 128,
@@ -439,7 +469,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10250
     },
     {
       "id": 128,
@@ -453,7 +484,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10251
     },
     {
       "id": 128,
@@ -467,7 +499,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10252
     },
     {
       "id": 144,
@@ -481,7 +514,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10169
     },
     {
       "id": 145,
@@ -495,7 +529,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10170
     },
     {
       "id": 146,
@@ -509,7 +544,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10171
     },
     {
       "id": 157,
@@ -523,7 +559,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10233
     },
     {
       "id": 194,
@@ -537,7 +574,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10253
     },
     {
       "id": 199,
@@ -551,7 +589,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10172
     },
     {
       "id": 211,
@@ -565,7 +604,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10234
     },
     {
       "id": 215,
@@ -579,7 +619,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10235
     },
     {
       "id": 222,
@@ -593,7 +634,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10173
     },
     {
       "id": 263,
@@ -607,7 +649,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10174
     },
     {
       "id": 264,
@@ -621,7 +664,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10175
     },
     {
       "id": 351,
@@ -635,7 +679,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10013
     },
     {
       "id": 351,
@@ -649,7 +694,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10014
     },
     {
       "id": 351,
@@ -663,7 +709,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10015
     },
     {
       "id": 386,
@@ -677,7 +724,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 386
     },
     {
       "id": 386,
@@ -691,7 +739,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10001
     },
     {
       "id": 386,
@@ -705,7 +754,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10002
     },
     {
       "id": 386,
@@ -719,7 +769,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10003
     },
     {
       "id": 412,
@@ -733,7 +784,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 412
     },
     {
       "id": 412,
@@ -747,7 +799,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 412
     },
     {
       "id": 412,
@@ -761,7 +814,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 412
     },
     {
       "id": 413,
@@ -775,7 +829,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 413
     },
     {
       "id": 413,
@@ -789,7 +844,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10004
     },
     {
       "id": 413,
@@ -803,7 +859,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10005
     },
     {
       "id": 479,
@@ -817,7 +874,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10008
     },
     {
       "id": 479,
@@ -831,7 +889,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10009
     },
     {
       "id": 479,
@@ -845,7 +904,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10010
     },
     {
       "id": 479,
@@ -859,7 +919,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10011
     },
     {
       "id": 479,
@@ -873,7 +934,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10012
     },
     {
       "id": 483,
@@ -887,7 +949,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10245
     },
     {
       "id": 484,
@@ -901,7 +964,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10246
     },
     {
       "id": 487,
@@ -915,7 +979,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 487
     },
     {
       "id": 487,
@@ -929,7 +994,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10007
     },
     {
       "id": 492,
@@ -943,7 +1009,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 492
     },
     {
       "id": 503,
@@ -957,7 +1024,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10236
     },
     {
       "id": 549,
@@ -971,7 +1039,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10237
     },
     {
       "id": 550,
@@ -985,7 +1054,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 550
     },
     {
       "id": 550,
@@ -999,7 +1069,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10016
     },
     {
       "id": 550,
@@ -1013,7 +1084,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10247
     },
     {
       "id": 554,
@@ -1027,7 +1099,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10176
     },
     {
       "id": 555,
@@ -1041,7 +1114,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 555
     },
     {
       "id": 555,
@@ -1055,7 +1129,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10177
     },
     {
       "id": 562,
@@ -1069,7 +1144,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10179
     },
     {
       "id": 570,
@@ -1083,7 +1159,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10238
     },
     {
       "id": 571,
@@ -1097,7 +1174,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10239
     },
     {
       "id": 618,
@@ -1111,7 +1189,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10180
     },
     {
       "id": 628,
@@ -1125,7 +1204,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10240
     },
     {
       "id": 641,
@@ -1139,7 +1219,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 641
     },
     {
       "id": 642,
@@ -1153,7 +1234,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 642
     },
     {
       "id": 645,
@@ -1167,7 +1249,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 645
     },
     {
       "id": 646,
@@ -1181,7 +1264,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10023
     },
     {
       "id": 646,
@@ -1195,7 +1279,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10022
     },
     {
       "id": 647,
@@ -1209,7 +1294,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 647
     },
     {
       "id": 648,
@@ -1223,7 +1309,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 648
     },
     {
       "id": 678,
@@ -1237,7 +1324,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 678
     },
     {
       "id": 678,
@@ -1251,7 +1339,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10025
     },
     {
       "id": 681,
@@ -1265,7 +1354,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 681
     },
     {
       "id": 681,
@@ -1279,7 +1369,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10026
     },
     {
       "id": 705,
@@ -1293,7 +1384,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10241
     },
     {
       "id": 706,
@@ -1307,7 +1399,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10242
     },
     {
       "id": 710,
@@ -1321,7 +1414,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 710
     },
     {
       "id": 711,
@@ -1335,7 +1429,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 711
     },
     {
       "id": 713,
@@ -1349,7 +1444,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10243
     },
     {
       "id": 718,
@@ -1363,7 +1459,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 718
     },
     {
       "id": 718,
@@ -1377,7 +1474,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10120
     },
     {
       "id": 720,
@@ -1391,7 +1489,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 720
     },
     {
       "id": 724,
@@ -1405,7 +1504,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10244
     },
     {
       "id": 741,
@@ -1419,7 +1519,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 741
     },
     {
       "id": 741,
@@ -1433,7 +1534,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10123
     },
     {
       "id": 741,
@@ -1447,7 +1549,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10124
     },
     {
       "id": 741,
@@ -1461,7 +1564,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10125
     },
     {
       "id": 745,
@@ -1475,7 +1579,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 745
     },
     {
       "id": 745,
@@ -1489,7 +1594,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10126
     },
     {
       "id": 746,
@@ -1503,7 +1609,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 746
     },
     {
       "id": 746,
@@ -1517,7 +1624,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10127
     },
     {
       "id": 774,
@@ -1531,7 +1639,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 774
     },
     {
       "id": 774,
@@ -1545,7 +1654,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10136
     },
     {
       "id": 849,
@@ -1559,7 +1669,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 849
     },
     {
       "id": 849,
@@ -1573,7 +1684,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10184
     },
     {
       "id": 875,
@@ -1587,7 +1699,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 875
     },
     {
       "id": 876,
@@ -1601,7 +1714,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 876
     },
     {
       "id": 876,
@@ -1615,7 +1729,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10186
     },
     {
       "id": 877,
@@ -1629,7 +1744,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 877
     },
     {
       "id": 877,
@@ -1643,7 +1759,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10187
     },
     {
       "id": 888,
@@ -1657,7 +1774,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 888
     },
     {
       "id": 889,
@@ -1671,7 +1789,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 889
     },
     {
       "id": 892,
@@ -1685,7 +1804,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 892
     },
     {
       "id": 892,
@@ -1699,7 +1819,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10191
     },
     {
       "id": 901,
@@ -1713,7 +1834,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10272
     },
     {
       "id": 902,
@@ -1727,7 +1849,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 902
     },
     {
       "id": 902,
@@ -1741,7 +1864,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10248
     },
     {
       "id": 905,
@@ -1755,7 +1879,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 905
     },
     {
       "id": 916,
@@ -1769,7 +1894,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 916
     },
     {
       "id": 916,
@@ -1783,7 +1909,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10254
     },
     {
       "id": 925,
@@ -1797,7 +1924,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 925
     },
     {
       "id": 925,
@@ -1811,7 +1939,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10257
     },
     {
       "id": 931,
@@ -1825,7 +1954,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 931
     },
     {
       "id": 931,
@@ -1839,7 +1969,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10260
     },
     {
       "id": 931,
@@ -1853,7 +1984,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10261
     },
     {
       "id": 931,
@@ -1867,7 +1999,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 10262
     },
     {
       "id": 964,
@@ -1881,7 +2014,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 964
     },
     {
       "id": 978,
@@ -1895,7 +2029,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 978
     },
     {
       "id": 982,
@@ -1909,7 +2044,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 982
     },
     {
       "id": 999,
@@ -1923,7 +2059,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 999
     },
     {
       "id": 1017,
@@ -1937,7 +2074,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 1017
     },
     {
       "id": 1024,
@@ -1951,7 +2089,8 @@
       "tcg": {
         "hasCard": false,
         "hasFullArt": false
-      }
+      },
+      "spriteId": 1024
     }
   ]
 }

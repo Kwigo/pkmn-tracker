@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PokéAPI sprite demo</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 0;
+      padding: 1.5rem;
+      background: #1a1a2e;
+      color: #eee;
+    }
+
+    h1 { margin-top: 0; font-size: 1.3rem; }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+
+    .controls label { font-size: 0.9rem; }
+
+    select {
+      padding: 0.3rem 0.5rem;
+      border-radius: 6px;
+      border: 1px solid #444;
+      background: #16213e;
+      color: #eee;
+    }
+
+    #status {
+      font-size: 0.85rem;
+      color: #9aa;
+      margin-bottom: 1rem;
+    }
+
+    #grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      gap: 0.75rem;
+    }
+
+    .card {
+      background: #16213e;
+      border-radius: 10px;
+      padding: 0.5rem;
+      text-align: center;
+    }
+
+    .sprite {
+      width: 96px;
+      height: 96px;
+      object-fit: contain;
+      image-rendering: pixelated; /* keeps small pixel sprites crisp when scaled */
+    }
+
+    .name { font-size: 0.75rem; margin-top: 0.25rem; }
+  </style>
+</head>
+
+<body>
+  <h1>PokéAPI sprite demo</h1>
+
+  <p style="max-width: 60ch; color:#9aa; font-size:0.85rem;">
+    Sprites here come straight from PokéAPI's CDN, keyed by dex number — no
+    local images, no <code>formatSpriteName()</code>. This is a throwaway demo;
+    it reuses your real <code>assets/data/genN.json</code> but changes nothing.
+    (Gens 1–9 only — regional variants/gen0 need a name lookup, as discussed.)
+  </p>
+
+  <div class="controls">
+    <label>
+      Generation:
+      <select id="gen">
+        <option value="1">Gen 1</option>
+        <option value="2">Gen 2</option>
+        <option value="3">Gen 3</option>
+        <option value="4">Gen 4</option>
+        <option value="5">Gen 5</option>
+        <option value="6">Gen 6</option>
+        <option value="7">Gen 7</option>
+        <option value="8">Gen 8</option>
+        <option value="9">Gen 9</option>
+      </select>
+    </label>
+
+    <label>
+      Sprite style:
+      <select id="style">
+        <option value="pixel">Game pixel sprites</option>
+        <option value="home">Pokémon HOME renders</option>
+        <option value="artwork">Official artwork</option>
+      </select>
+    </label>
+
+    <label>
+      <input type="checkbox" id="shiny" /> Shiny
+    </label>
+  </div>
+
+  <div id="status"></div>
+  <div id="grid"></div>
+
+  <script type="module" src="pokeapi-sprites.js"></script>
+</body>
+</html>

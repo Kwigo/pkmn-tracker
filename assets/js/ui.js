@@ -12,7 +12,7 @@ export function createGenSection(gen, data) {
   header.classList.add("gen-header");
 
   const title = document.createElement("span");
-  title.textContent = `Gen ${gen}`;
+  title.textContent = gen == 0 ? "Variant forms" : `Gen ${gen}`;
 
   const progressText = document.createElement("span");
   progressText.classList.add("gen-progress-text");
@@ -58,11 +58,11 @@ function updateGenProgress(gen, list, textEl, barEl) {
 
   const percent = total === 0 ? 0 : Math.round((caught / total) * 100);
 
-  textEl.textContent = `${caught} / ${total} (${percent}%)`;
+  textEl.textContent = ` - ${caught} / ${total} (${percent}%)`;
   barEl.style.width = `${percent}%`;
 }
 
-function updateGenProgressFromList() {
+export function updateGenProgressFromList() {
   document.querySelectorAll(".gen-section").forEach(section => {
     const gen = section.dataset.gen;
 

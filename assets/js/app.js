@@ -84,8 +84,19 @@ document.getElementById("export-json").addEventListener("click", () => {
   Object.entries(state.data).forEach(([gen, value]) => {
     const pokemonList = value.pokemon;
 
+    const updated = {
+      ...value,
+      lastModified: new Date().toISOString().split("T")[0],
+      stats: {
+        total: pokemonList.length,
+        caught: pokemonList.filter(p => p.caught).length,
+        shiny: pokemonList.filter(p => p.shiny).length
+      },
+      pokemon: pokemonList
+    };
+
     const blob = new Blob(
-      [JSON.stringify({ pokemon: pokemonList }, null, 2)],
+      [JSON.stringify(updated, null, 2)],
       { type: "application/json" }
     );
 

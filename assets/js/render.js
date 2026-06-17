@@ -1,30 +1,40 @@
-import { formatSpriteName } from "./utils.js";
 import { state } from "./state.js";
+import { updateGenProgressFromList } from "./ui.js";
 
+// PokéAPI's sprite CDN. Every path is keyed by national dex number (p.id),
+// so there's no name formatting to do — the id we already have is the key.
+const SPRITE_CDN = "https://cdn.jsdelivr.net/gh/PokeAPI/sprites@master/sprites/pokemon";
 
+function spriteUrl(p) {
+  // Gens 1-9 are keyed by national dex number (p.id). Variant forms (gen 0)
+  // carry a resolved PokéAPI form id in p.spriteId; fall back to p.id otherwise.
+  const id = p.spriteId ?? p.id;
+  return `${SPRITE_CDN}/${p.shiny ? "shiny/" : ""}${id}.png`;
+}
 
 export function renderGen(pokemonList, grid) {
   if (!Array.isArray(pokemonList)) {
     console.error("Invalid pokemonList:", pokemonList);
     return;
   }
-  
+
   grid.innerHTML = "";
 
   pokemonList.forEach(p => {
     const card = document.createElement("div");
     card.classList.add("card");
+    if (p.shiny) card.classList.add("shiny");
 
     const id = String(p.id).padStart(4, "0");
 
     const caughtText = p.caught
-      ? `Caught: ${p.catchDate || "Unknown"}`
+      ? `Caught: ${p.caughtDate || "Unknown"}`
       : "Not caught";
 
     card.innerHTML = `
       <div class="sprite-wrapper">
-        <img class="sprite" src="assets/sprites/gen${p.gen}/${formatSpriteName(p.name)}.png" />
-        ${p.shiny ? `<img class="shiny-sparkle" src="assets/ui/sparkle.gif" />` : ""}
+        <img class="sprite" src="${spriteUrl(p)}" alt="${p.name}" loading="lazy"
+             onerror="this.style.visibility='hidden'" />
       </div>
 
       <h3>#${id} ${p.name}</h3>
@@ -38,9 +48,9 @@ export function renderGen(pokemonList, grid) {
       p.caught = !p.caught;
 
       if (p.caught) {
-        p.catchDate = new Date().toISOString().split("T")[0];
+        p.caughtDate = new Date().toISOString().split("T")[0];
       } else {
-        p.catchDate = null;
+        p.caughtDate = null;
         p.shiny = false;
       }
 
@@ -64,31 +74,3 @@ export function renderGen(pokemonList, grid) {
     grid.appendChild(card);
   });
 }
-
-/*export function renderGen(pokemonList, grid) {
-  grid.innerHTML = "";
-
-  pokemonList.forEach(p => {
-    const card = document.createElement("div");
-    card.classList.add("card");
-
-    const id = String(p.id).padStart(4, "0");
-
-    const caughtText = p.caught
-      ? `Caught: ${p.catchDate || "Unknown"}`
-      : "Not caught";
-
-    card.innerHTML = `
-      <div class="sprite-wrapper">
-        <img class="sprite" src="assets/sprites/gen${p.gen}/${formatSpriteName(p.name)}.png" />
-        ${p.shiny ? `<img class="shiny-sparkle" src="assets/ui/sparkle.gif" />` : ""}
-      </div>
-
-      <h3>#${id} ${p.name}</h3>
-      <p class="catch-date">${caughtText}</p>
-    `;
-
-    grid.appendChild(card);
-  });
-}
-*/
