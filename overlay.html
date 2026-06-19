@@ -10,25 +10,20 @@
 <body>
   <div id="overlay">
 
-    <div class="header">
-      <span class="title">Living Dex</span>
+    <!-- the bar itself is the progress fill -->
+    <div id="bar-fill" class="bar-fill"></div>
+
+    <div class="content">
       <span id="percent" class="percent">0%</span>
-    </div>
 
-    <div class="bar">
-      <div id="bar-fill" class="bar-fill"></div>
-    </div>
+      <span class="group">
+        <span class="stat">
+          <span id="caught">0</span><span class="total">/<span id="total">0</span></span>
+        </span>
+        <span class="stat shiny"><span class="star">★</span> <span id="shiny">0</span></span>
+      </span>
 
-    <div class="stats">
-      <div class="stat">
-        <span class="label">Caught</span>
-        <span class="value"><span id="caught">0</span><span class="total"> / <span id="total">0</span></span></span>
-      </div>
-
-      <div class="stat shiny">
-        <span class="label">Shiny</span>
-        <span class="value"><span class="star">★</span> <span id="shiny">0</span></span>
-      </div>
+      <span class="title">Living Dex</span>
     </div>
 
   </div>
