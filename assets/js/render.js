@@ -58,14 +58,21 @@ export function renderGen(pokemonList, grid) {
       updateGenProgressFromList();
     });
 
-    // RIGHT CLICK SHINY
+    // RIGHT CLICK SHINY (marks caught + shiny in one go)
     card.addEventListener("contextmenu", (e) => {
       e.preventDefault();
 
       if (!state.editMode) return;
-      if (!p.caught) return;
 
       p.shiny = !p.shiny;
+
+      // A shiny is necessarily caught, so turning shiny on marks it caught too.
+      if (p.shiny) {
+        p.caught = true;
+        if (!p.caughtDate) {
+          p.caughtDate = new Date().toISOString().split("T")[0];
+        }
+      }
 
       renderGen(pokemonList, grid);
       updateGenProgressFromList();

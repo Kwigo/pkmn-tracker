@@ -12,7 +12,11 @@ function render(stats, animate = true) {
 
   document.getElementById("total").textContent = stats.total;
   document.getElementById("percent").textContent = stats.percent + "%";
+
+  // Blue fill = caught %, gold fill = shiny % (drawn on top, from the left).
+  const shinyPercent = stats.total === 0 ? 0 : (stats.shiny / stats.total) * 100;
   document.getElementById("bar-fill").style.width = stats.percent + "%";
+  document.getElementById("shiny-fill").style.width = shinyPercent + "%";
 }
 
 function setValue(id, newValue, animate) {
