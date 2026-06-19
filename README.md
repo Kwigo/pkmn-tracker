@@ -1,22 +1,21 @@
 # pkmn-tracker
 Welcome to my Pokemon Tracker ! Feel free to use it yourself.
-All Pokemon sprites courtesy of pokemondb.net
 
 ## What is the Pokemon Tracker?
-With the tools and code in this repo you can build your own site to easily track all the pokemon you have caught. I'm using this mostly as an overlay for Twitch where I intend to stream my journey to a full living dex. I've discovered safaricode.com after completing the basic site, so I've decided to switch it up to a more streamer focused tool. If you just want to track your own living dex, I'd recommend using Safari Code!
-
-## How to use?
-Use the code from the pkmn-json-maker and the files in pkmn-source to create your own JSON files. Then use the source code from the site itself to create your own page to set up your own private tracker.
+With this repo you can build your own site to easily track all the pokemon you have caught. I'm using this mostly as an overlay for Twitch where I intend to stream my journey to a full living dex. I've discovered safaricode.com after completing the basic site, so I've decided to switch it up to a more streamer focused tool. If you just want to track your own living dex, I'd recommend using Safari Code!
 
 ## How to update the stats?
-With the local admin version you can easily change the JSON files by simply launching index.html in any browser and checking the boxes for each pokemon, their shiny variant and regional forms. Please be aware that I've chosen to separate regional forms and variants from the main pokedex as my main goal is to have the (currently) basic 1025 roster.
+Turn Edit Mode on and left click to tag a pokemon as caught, right click for the shiny version. Turn off Edit Mode and dowload the updated JSON files to then push them back to your own repo to save the changes. The Overlay should run in the same browser as the main site, otherwise it won't track your changes.
+You could also use a BackEnd as a Service (like Firebase) to have a full real-time application, but to be honest I was too lazy for that.
 
 ## AI Disclaimer
-AI has been used for all of the CSS and to fix some issues in the javascript. 
+While I started working alone on this project, I used Claude Code to finish since we had to test it out at work. The final version has therefore lots of fixes made by AI.
 
 # Milestones
 ## Currently working on...
-Automatic sync between the site and the overlay, fixing some of the JSON (mostly pokemon forms that can't be stored in Home + sprite name mismatch)
+Nothing
+## 19-06-2026
+First fully working version, completed through the use of AI. PokeAPI integration and interactive overlay have been added.
 ## 13-04-2026
 First website iteration has been published
 ## 08-04-2026

@@ -5,6 +5,14 @@
   --muted: #cda4ce;
   --accent: #02a9ea;
   --shiny: #ffd166;
+
+  /* crisp dark outline for text legibility over any background */
+  --outline:
+    -1px -1px 0 rgba(0, 0, 0, 0.9),
+     1px -1px 0 rgba(0, 0, 0, 0.9),
+    -1px  1px 0 rgba(0, 0, 0, 0.9),
+     1px  1px 0 rgba(0, 0, 0, 0.9),
+     0    2px 3px rgba(0, 0, 0, 0.9);
 }
 
 body {
@@ -56,6 +64,7 @@ body {
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--muted);
+  text-shadow: var(--outline);
 }
 
 .percent {
@@ -64,8 +73,8 @@ body {
   line-height: 1;
   color: var(--accent);
   text-shadow:
-    0 0 8px rgba(2, 169, 234, 0.55),
-    0 2px 3px rgba(0, 0, 0, 0.8);
+    var(--outline),
+    0 0 9px rgba(2, 169, 234, 0.7);
 }
 
 /* ---- Progress bar ---- */
@@ -103,12 +112,13 @@ body {
   text-transform: uppercase;
   color: var(--muted);
   margin-bottom: 1px;
+  text-shadow: var(--outline);
 }
 
 .value {
   font-size: 1.15rem;
   font-weight: bold;
-  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.85);
+  text-shadow: var(--outline);
 }
 
 .total {
@@ -120,8 +130,8 @@ body {
 .stat.shiny .value {
   color: var(--shiny);
   text-shadow:
-    0 0 8px rgba(255, 209, 102, 0.5),
-    0 2px 3px rgba(0, 0, 0, 0.85);
+    var(--outline),
+    0 0 9px rgba(255, 209, 102, 0.6);
 }
 
 .star {
