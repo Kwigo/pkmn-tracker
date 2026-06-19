@@ -1,5 +1,5 @@
 import { state } from "./state.js";
-import { createGenSection } from "./ui.js";
+import { createGenSection, writeOverlayStats } from "./ui.js";
 
 export const gens = [1,2,3,4,5,6,7,8,9,0];
 
@@ -12,4 +12,7 @@ export async function loadAllGens() {
 
     createGenSection(gen, data);
   }
+
+  // Seed the overlay with the current totals once everything is loaded.
+  writeOverlayStats();
 }

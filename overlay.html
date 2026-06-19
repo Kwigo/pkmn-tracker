@@ -10,23 +10,29 @@
 <body>
   <div id="overlay">
 
-    <div class="stat">
+    <div class="header">
+      <span class="title">Living Dex</span>
+      <span id="percent" class="percent">0%</span>
+    </div>
+
+    <div class="bar">
+      <div id="bar-fill" class="bar-fill"></div>
+    </div>
+
+    <div class="stats">
+      <div class="stat">
         <span class="label">Caught</span>
-        <span id="caught">0</span>
-    </div>
+        <span class="value"><span id="caught">0</span><span class="total"> / <span id="total">0</span></span></span>
+      </div>
 
-    <div class="stat">
+      <div class="stat shiny">
         <span class="label">Shiny</span>
-        <span id="shiny">0</span>
-    </div>
-
-    <div class="stat-highlight">
-        <span class="label">Completion</span>
-        <span id="percent">0%</span>
+        <span class="value"><span class="star">★</span> <span id="shiny">0</span></span>
+      </div>
     </div>
 
   </div>
-  
+
   <script type="module" src="assets/js/overlay.js"></script>
 </body>
 </html>

@@ -73,4 +73,26 @@ export function updateGenProgressFromList() {
 
     updateGenProgress(gen, data, textEl, barEl);
   });
+
+  writeOverlayStats();
+}
+
+// Shared key the overlay reads/listens on. Writing here lets a same-browser
+// overlay window update live via the `storage` event — no server, no export.
+export const OVERLAY_KEY = "pkmn-tracker-stats";
+
+export function writeOverlayStats() {
+  let total = 0, caught = 0, shiny = 0;
+
+  Object.values(state.data).forEach(g => {
+    const list = g.pokemon ?? g;
+    if (!Array.isArray(list)) return;
+    total += list.length;
+    caught += list.filter(p => p.caught).length;
+    shiny += list.filter(p => p.shiny).length;
+  });
+
+  const percent = total === 0 ? 0 : Math.round((caught / total) * 100);
+
+  localStorage.setItem(OVERLAY_KEY, JSON.stringify({ total, caught, shiny, percent }));
 }
